@@ -8,6 +8,7 @@ export interface IHotel extends mongoose.Document {
     address: string;
     distance: string;
     photos?: string[];
+    title: string;
     description: string;
     rating?: number;
     rooms?: string[];
